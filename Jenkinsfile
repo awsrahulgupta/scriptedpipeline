@@ -10,7 +10,7 @@ stage('ContinuousDeployment') {
 }
 
 stage('ContinuousTesting') {
-    git 'https://github.com/awsrahulgupta/scriptedpipeline.git'
+    git 'https://github.com/awsrahulgupta/functionaltesting.git'
     sh label: '', script: 'java -jar /home/ubuntu//.jenkins/workspace/ScriptedPipeline/testing.jar'
     }
 stage('ContinuousDelievery') {
