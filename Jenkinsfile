@@ -1,5 +1,5 @@
 node('master') {
-   stage('ContinuousDownloadloans') {
+   stage('ContinuousDownloadloan') {
    git 'https://github.com/awsrahulgupta/scriptedpipeline.git'
 }
 stage('ContinuousBuildloans') {
